@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CandyCat</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    div{
+        position: absolute;
+    }
+    header {
+        height: 110px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        color: black;
+        background-color: white;
+        font-size: 30px;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .menu {
+        margin-top: 0px;
+    }
+    .menu:nth-child(1) {
+        margin-left: 645px;
+    }
+    .menu:nth-child(2) {
+        margin-left: 930px;
+    }
+    .menu:nth-child(3) {
+        margin-left: 1300px;
+    }
+    .mypage {
+        margin-top: 28px;
+        margin-left: 1615px;
+    }
+    .logo {
+        margin-left: 105px;
+        margin-top: 2px;
+    }
+    .content {
+        margin: auto;
+    }
+    .background {
+        margin-top: 700px;
+    }
+    .animal {
+        margin-left: 120px;
+        margin-top: 955px;
+    }
+    .personalized {
+        margin-left: 220px;
+        margin-top: 1770px;
+    }
+    .book {
+        margin-left: 30px;
+        margin-top: 2598px;
+    }
+    
+</style>
+<body style="overflow-x: hidden">
+    <!-- js 연결 -->
+    <script src="changepage.js"></script>
+    <!-- 메인화면 배너 -->
+    <header>
+        <div class="menu">ANIMALS</div>
+        <div class="menu">PERSONALISED</div>
+        <div class="menu">BOOK</div>
+        <div class="logo"><img alt="HTML" src="./img/CandyCat_logo.png"></div>
+        <div class="mypage"><img alt="HTML" src="./img/Mypage_icon.png"></div>
+    </header>
+    <!-- 메인화면 카테고리 -->
+    <div class="content"><img alt="HTML" src="./img/Main.png"></div>
+    <div class="background"><img alt="HTML" src="./img/Main_background.png"></div>
+    <div class="animal"><img alt="HTML" src="./img/Animal.png"></div>
+    <div class="personalized"><img alt="HTML" src="./img/Personalised.png"></div>
+    <div class="book""><img alt="HTML" src="./img/Book.png"></div>
+    
+</body>
+</html>
+
