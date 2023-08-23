@@ -63,11 +63,47 @@
         margin-left: 30px;
         margin-top: 2598px;
     }
-    
+    #animal_btn{
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 627px;
+        padding: 20px 50px ;
+        opacity: 0;
+        z-index: 1;
+    }
+    #personalized_btn {
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 932px;
+        padding: 20px 80px ;
+        opacity: 0;
+        z-index: 1;
+    }
+    #book_btn {
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 1300px;
+        padding: 20px 60px ;
+        opacity: 0;
+        z-index: 1;
+    }
+    #mypage_btn {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 1615px;
+        padding: 20px 90px ;
+        opacity: 0;
+        z-index: 1;
+    }
 </style>
 <body style="overflow-x: hidden">
     <!-- js 연결 -->
     <script src="changepage.js"></script>
+    <!-- 화면 전환 버튼 -->
+    <button id="animal_btn">animal</button>
+    <button id="personalized_btn">personalized</button>
+    <button id="book_btn">book</button>
+    <button id="mypage_btn">mypage</button>
     <!-- 메인화면 배너 -->
     <header>
         <div class="menu">ANIMALS</div>
@@ -82,7 +118,8 @@
     <div class="animal"><img alt="HTML" src="./img/Animal.png"></div>
     <div class="personalized"><img alt="HTML" src="./img/Personalised.png"></div>
     <div class="book""><img alt="HTML" src="./img/Book.png"></div>
-    
+
+   
 </body>
 </html>
 
