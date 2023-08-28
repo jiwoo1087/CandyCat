@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animal</title>
 </head>
-<body>
-    동물~!~!~!~!~!~!~!
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    div {
+        position: absolute;
+    }
+    header {
+        height: 110px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        color: black;
+        background-color: white;
+        font-size: 30px;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .menu {
+        margin-top: 0px;
+    }
+    .menu:nth-child(1) {
+        margin-left: 645px;
+    }
+    .menu:nth-child(2) {
+        margin-left: 930px;
+    }
+    .menu:nth-child(3) {
+        margin-left: 1300px;
+    }
+    .mypage {
+        margin-top: 28px;
+        margin-left: 1615px;
+    }
+    .logo {
+        margin-left: 105px;
+        margin-top: 2px;
+    }
+    .animal {
+        margin-top: 0;
+        margin-left: 110px;
+    }
+    .all_animals {
+        margin-left: 130px;
+        margin-top: 740px;
+    }
+    .land_animals {
+        margin-left: 1030px;
+        margin-top: 740px;
+    }
+</style>
+<body style="overflow-x: hidden">
+    <header>
+        <div class="menu">ANIMALS</div>
+        <div class="menu">PERSONALISED</div>
+        <div class="menu">BOOK</div>
+        <div class="logo"><img alt="HTML" src="./img/CandyCat_logo.png"></div>
+        <div class="mypage"><img alt="HTML" src="./img/Mypage_icon.png"></div>
+    </header>
+    <div class="background"><img alt="HTML" src="./img/Animal_background.png"></div>
+    <div class="animal"><img alt="HTML" src="./img/Animal.png"></div>
+    <div class="all_animals"><img alt="HTML" src="./img/AllAnimals.png"></div>
+    <div class="land_animals"><img alt="HTML" src="./img/LandAnimals.png"></div>
 </body>
 </html>
