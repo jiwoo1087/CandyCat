@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location.href = 'http://127.0.0.1:5500/animal.html'; 
     });
     personalized_btn.addEventListener('click', () => {
-        location.href = 'http://127.0.0.1:5500/personalized.html'; 
+        location.href = 'http://127.0.0.1:5500/personalised.html'; 
     });
     book_btn.addEventListener('click', () => {
         location.href = 'http://127.0.0.1:5500/book.html'; 
