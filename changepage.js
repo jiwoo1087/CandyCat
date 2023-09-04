@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // 선언
     const animal_btn = document.getElementById('animal_btn');
-    const personalized_btn = document.getElementById('personalized_btn');
+    const personalised_btn = document.getElementById('personalised_btn');
     const book_btn = document.getElementById('book_btn');
     const mypage_btn = document.getElementById('mypage_btn');
     
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     animal_btn.addEventListener('click', () => {
         location.href = 'http://127.0.0.1:5500/animal.html'; 
     });
-    personalized_btn.addEventListener('click', () => {
+    personalised_btn.addEventListener('click', () => {
         location.href = 'http://127.0.0.1:5500/personalised.html'; 
     });
     book_btn.addEventListener('click', () => {
