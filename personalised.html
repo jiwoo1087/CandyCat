@@ -49,7 +49,7 @@
         margin-top: auto;
     }
     .personalised {
-        margin-top: 0;
+        margin-top: 90px;
         margin-left: 130px;
     }
     .all_personalised {
@@ -108,16 +108,53 @@
         opacity: 0;
         z-index: 1;
     }
+    #all_personalised_btn {
+        position: absolute;
+        margin-top: 1000px;
+        margin-left: 150px;
+        padding: 300px 800px;
+        opacity: 0;
+        z-index: 1;
+    }
+    #personbunni_btn {
+        position: absolute;
+        margin-top: 1970px;
+        margin-left: 150px;
+        padding: 300px 800px;
+        opacity: 0;
+        z-index: 1;
+    }
+    #personsoothers_btn {
+        position: absolute;
+        margin-top: 3100px;
+        margin-left: 150px;
+        padding: 300px 800px;
+        opacity: 0;
+        z-index: 1;
+    }
+    #personjumper_btn {
+        position: absolute;
+        margin-top: 4200px;
+        margin-left: 150px;
+        padding: 300px 800px;
+        opacity: 0;
+        z-index: 1;
+    }
 </style>
 <body style="overflow-x: hidden">
     <!-- js 연결 -->
     <script src="changepage.js"></script>
+    <script src="changepage_personalised.js"></script>
     <!-- 화면 전환 버튼 -->
     <button id="main_btn">main</button>
     <button id="animal_btn">animal</button>
     <button id="personalised_btn">personalised</button>
     <button id="book_btn">book</button>
     <button id="mypage_btn">mypage</button>
+    <button id="all_personalised_btn">all_personalised</button>
+    <button id="personbunni_btn">personbunni_btn</button>
+    <button id="personsoothers_btn">personsoothers_btn</button>
+    <button id="personjumper_btn">personjumper_btn</button>
     <!-- 메인화면 배너 -->
     <header>
         <div class="menu">ANIMALS</div>
