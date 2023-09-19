@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
     
     //클릭시 이벤트 (화면 전환)
     animal_btn2.addEventListener('click', () => {
-        location.href = 'animal.html'; 
+        location.href = '../animal/animal.html'; 
     });
     personalised_btn2.addEventListener('click', () => {
-        location.href = 'personalised.html'; 
+        location.href = '../personalised/personalised.html'; 
     });
     book_btn2.addEventListener('click', () => {
-        location.href = 'book.html'; 
+        location.href = '../book/book.html'; 
     });
     mypage_btn2.addEventListener('click', () => {
-        location.href = 'mypage.html'; 
+        location.href = '../mypage/mypage.html'; 
     });
 
 

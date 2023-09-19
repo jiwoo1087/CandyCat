@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book</title>
+    <title>CandyCat</title>
 </head>
 <style>
     *{
@@ -21,47 +21,50 @@
         display: flex;
         color: black;
         background-color: white;
-        font-size: 30px;
-        font-weight: 300;
-        font-style: normal;
+        font-size: 200%;
+        font-weight: lighter;
     }
     .menu {
         margin-top: 0px;
     }
     .menu:nth-child(1) {
-        margin-left: 645px;
+        margin-left: 30%;
     }
     .menu:nth-child(2) {
-        margin-left: 930px;
+        margin-left: 45%;
     }
     .menu:nth-child(3) {
-        margin-left: 1300px;
+        margin-left: 65%;
     }
     .mypage {
-        margin-top: 28px;
-        margin-left: 1615px;
+        margin-left: 85%;
+        margin-top: 1%;
     }
     .logo {
-        margin-left: 105px;
+        margin-left: 5%;
         margin-top: 2px;
     }
-    .book_background {
+    .basket {
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    .content {
         margin: auto;
     }
+    .background {
+        margin-top: 700px;
+    }
+    .animal {
+        margin-left: 120px;
+        margin-top: 955px;
+    }
+    .personalised {
+        margin-left: 220px;
+        margin-top: 1770px;
+    }
     .book {
-        margin-left: 150px;
-    }
-    .all_books {
-        margin-top: 750px;
-        margin-left: 180px;
-    }
-    .stroy_books {
-        margin-top: 1720px;
-        margin-left: 250px;
-    }
-    .soft_book {
-        margin-top: 2550px;
-        margin-left: 150px;
+        margin-left: 30px;
+        margin-top: 2598px;
     }
     #main_btn {
         position: absolute;
@@ -71,11 +74,19 @@
         opacity: 0;
         z-index: 1;
     }
-    #animal_btn{
+    #animal_btn {
         position: absolute;
         margin-top: 25px;
         margin-left: 627px;
         padding: 20px 50px ;
+        opacity: 0;
+        z-index: 1;
+    }
+    #animal_btn2 {
+        position: absolute;
+        margin-top: 1100px;
+        margin-left: 50px;
+        padding: 250px 870px ;
         opacity: 0;
         z-index: 1;
     }
@@ -87,11 +98,27 @@
         opacity: 0;
         z-index: 1;
     }
+    #personalised_btn2 {
+        position: absolute;
+        margin-top: 1900px;
+        margin-left: 120px;
+        padding: 300px 800px ;
+        opacity: 0;
+        z-index: 1;
+    }
     #book_btn {
         position: absolute;
         margin-top: 25px;
         margin-left: 1300px;
         padding: 20px 60px ;
+        opacity: 0;
+        z-index: 1;
+    }
+    #book_btn2 {
+        position: absolute;
+        margin-top: 2800px;
+        margin-left: 100px;
+        padding: 300px 800px ;
         opacity: 0;
         z-index: 1;
     }
@@ -103,57 +130,36 @@
         opacity: 0;
         z-index: 1;
     }
-    #all_books_btn {
-        position: absolute;
-        margin-top: 800px;
-        margin-left: 150px;
-        padding: 300px 800px;
-        opacity: 0;
-        z-index: 1;
-    }
-    #stroybook_btn {
-        position: absolute;
-        margin-top: 1800px;
-        margin-left: 150px;
-        padding: 300px 800px;
-        opacity: 0;
-        z-index: 1;
-    }
-    #softbook_btn {
-        position: absolute;
-        margin-top: 2800px;
-        margin-left: 150px;
-        padding: 300px 800px;
-        opacity: 0;
-        z-index: 1;
-    }
 </style>
 <body style="overflow-x: hidden">
     <!-- js 연결 -->
     <script src="changepage.js"></script>
-    <script src="changepage_book.js"></script>
+    <script src="changepage_main.js"></script>
     <!-- 화면 전환 버튼 -->
     <button id="main_btn">main</button>
     <button id="animal_btn">animal</button>
+    <button id="animal_btn2">animal2</button>
     <button id="personalised_btn">personalised</button>
+    <button id="personalised_btn2">personalised2</button>
     <button id="book_btn">book</button>
+    <button id="book_btn2">book</button>
     <button id="mypage_btn">mypage</button>
-    <button id="all_books_btn">all_books_btn</button>
-    <button id="stroybook_btn">stroybook_btn</button>
-    <button id="softbook_btn">softbook_btn</button>
     <!-- 메인화면 배너 -->
     <header>
         <div class="menu">ANIMALS</div>
         <div class="menu">PERSONALISED</div>
         <div class="menu">BOOK</div>
-        <div class="logo"><img alt="HTML" src="./img/CandyCat_logo.png"></div>
-        <div class="mypage"><img alt="HTML" src="./img/Mypage_icon.png"></div>
+        <div class="logo"><img alt="HTML" src="../img/CandyCat_logo.png"></div>
+        <div class="mypage"><img alt="HTML" src="../img/Mypage_icon.png"></div>
+        <div class="basket"><img alt="HTML" scr="../img/Basket_icon.png"></div>
     </header>
-    <div class="book_background"><img alt="HTML" src="./img/Book_background.png"></div>
-    <div class="book"><img alt="HTML" src="./img/Book.png"></div>
-    <div class="all_books"><img alt="HTML" src="./img/Allbooks.png"></div>
-    <div class="stroy_books"><img alt="HTML" src="./img/StroyBook.png"></div>
-    <div class="soft_book"><img alt="HTML" src="./img/SoftBook.png"></div>
+    <!-- 메인화면 카테고리 -->
+    <div class="content"><img alt="HTML" src="../img/Main.png"></div>
+    <div class="background"><img alt="HTML" src="../img/Main_background.png"></div>
+    <div class="animal"><img alt="HTML" src="../img/Animal.png"></div>
+    <div class="personalised"><img alt="HTML" src="../img/Personalised.png"></div>
+    <div class="book""><img alt="HTML" src="../img/Book.png"></div>
+
 
 </body>
 </html>

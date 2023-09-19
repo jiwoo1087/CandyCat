@@ -5,23 +5,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const personalised_btn = document.getElementById('personalised_btn');
     const book_btn = document.getElementById('book_btn');
     const mypage_btn = document.getElementById('mypage_btn');
+    const basket_btn = document.getElementById('basket_btn');
     
     //클릭시 이벤트 (화면 전환)
     main_btn.addEventListener('click', () => {
-        location.href = 'main.html'; 
+        location.href = '../main/main.html'; 
     });
     animal_btn.addEventListener('click', () => {
-        location.href = 'animal.html'; 
+        location.href = '../animal/animal.html'; 
     });
     personalised_btn.addEventListener('click', () => {
-        location.href = 'personalised.html'; 
+        location.href = '../personalised/personalised.html'; 
     });
     book_btn.addEventListener('click', () => {
-        location.href = 'book.html'; 
+        location.href = '../book/book.html'; 
     });
     mypage_btn.addEventListener('click', () => {
-        location.href = 'mypage.html'; 
+        location.href = '../mypage/mypage.html'; 
     });
-
+    basket_btn.addEventListener('click', () => {
+        location.href = 'basket.html';
+    });
 
 });
