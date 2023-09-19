@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location.href = '../mypage/mypage.html'; 
     });
     basket_btn.addEventListener('click', () => {
-        location.href = 'basket.html';
+        location.href = '../basket.html';
     });
 
 });
